@@ -1,0 +1,16 @@
+name: sentiment_analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip:
+      - kaggle
+      - tensorflow
+
